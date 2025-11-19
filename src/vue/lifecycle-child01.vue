@@ -29,6 +29,11 @@ export default {
   unmounted() {
     console.log("lifecycle child01 unmounted ...");
   },
+  data() {
+    return {
+      child01Counter: 0,
+    };
+  },
 };
 </script>
 

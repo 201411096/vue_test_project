@@ -85,6 +85,7 @@ export default {
       <button @click="addMixinCounter02">addMixinCounter02</button>
     </div>
 
+    <div> child01 counter : {{ child01Counter }}</div>
 
   </header>
 </template>
