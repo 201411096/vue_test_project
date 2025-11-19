@@ -9,11 +9,14 @@ export default {
     LifecycleChild01,
     LifecycleChild02,
   },
+  setup(){
+    console.log("lifecycle setup ...");
+  },
   mixins:[
     lifecycleMixin01, lifecycleMixin02
   ],
   beforeCreate() {
-    console.log("lifecycle beforeCreate");
+    console.log("lifecycle beforeCreate ...");
   },
   created() {
     console.log("lifecycle created ...");

@@ -5,8 +5,11 @@ export default {
   components: {
     LifecycleChild01Child01,
   },
+  setup() {
+    console.log("lifecycle child01 setup ...");
+  },
   beforeCreate() {
-    console.log("lifecycle child01 beforeCreate");
+    console.log("lifecycle child01 beforeCreate ...");
   },
   created() {
     console.log("lifecycle child01 created ...");

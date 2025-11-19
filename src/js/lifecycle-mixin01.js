@@ -1,4 +1,7 @@
 export default {
+  setup() {
+    console.log("lifecycle-mixin01 setup ..."); // 작동하지 않음
+  },
   beforeCreate() {
     console.log("lifecycle-mixin01 beforeCreate");
   },

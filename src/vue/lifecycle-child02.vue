@@ -1,7 +1,10 @@
 <script>
 export default {
+  setup() {
+    console.log("lifecycle child02 setup ...");
+  },
   beforeCreate() {
-    console.log("lifecycle child02 beforeCreate");
+    console.log("lifecycle child02 beforeCreate ...");
   },
   created() {
     console.log("lifecycle child02 created ...");
