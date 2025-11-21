@@ -16,6 +16,7 @@ export const usePiniaStore = defineStore("piniaStore", {
   },
 
   // actionds = methods
+  // getters와 다르게 비동기일 수 있으며, await 사용 가능
   actions: {
     increment() {
       this.count++;
