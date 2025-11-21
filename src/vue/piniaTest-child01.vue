@@ -29,8 +29,12 @@ export default {
   <header>
     <hr></hr>
     <div>
-      <span>piniacounter-child01 : </span>
+      <span>pinia counter-child01 : </span>
       <span id="piniaCounter">{{ this.piniaStore.count }} </span>
+    </div>
+    <div>
+      <span>pinia doublecounter-child01 : </span>
+      <span id="piniaCounter">{{ this.piniaStore.doubleCount }} </span>
     </div>
     <div>
       <button @click="addStoreCounter">addStoreCounter</button>
