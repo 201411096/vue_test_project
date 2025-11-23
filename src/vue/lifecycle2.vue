@@ -7,6 +7,7 @@ function waitTIme(time) {
   });
 }
 
+
 export default {
   beforeCreate() {
     console.log("lifecycle beforeCreate ...");

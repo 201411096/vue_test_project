@@ -4,6 +4,7 @@ import LifeCycleChild02 from "../components/LifeCycleChild02.vue";
 import lifeCycleMixin01 from "../js/lifeCycleMixin01";
 import lifeCycleMixin02 from "../js/lifeCycleMixin02";
 
+
 export default {
   components: {
     LifeCycleChild01,

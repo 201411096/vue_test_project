@@ -37,7 +37,6 @@ export default {
   },
 };
 </script>
-
 <template>
   <header>
     <div>nextTick test page..</div>
