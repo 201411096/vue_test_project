@@ -10,7 +10,9 @@
     <div>
       <RouterLink to="/life-cycle2">lifecycle 테스트 페이지2</RouterLink>
     </div>
-    
+    <div>
+      <RouterLink to="/computed">computed 테스트 페이지</RouterLink>
+    </div>
     
   </nav>
   <main class="main-content">

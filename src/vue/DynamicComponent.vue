@@ -8,6 +8,9 @@
     <div>
       <button @click="current = 'LifeCyclePage2'">lifecycle 테스트 페이지2</button>
     </div>
+    <div>
+      <button @click="current = 'Computed'">computed 테스트 페이지</button>
+    </div>
   </nav>
 
   <main class="main-content">
@@ -19,6 +22,7 @@
 // 정상적으로 import
 import LifeCyclePage from './LifeCycle.vue'
 import LifeCyclePage2 from './LifeCycle2.vue'
+import Computed from '../vue/Computed.vue'
 
 export default {
   data() {
@@ -27,6 +31,7 @@ export default {
       componentsMap: {
         LifeCyclePage,
         LifeCyclePage2,
+        Computed,
       }
     }
   },
