@@ -1,9 +1,9 @@
 <script>
-import LifecycleChild01Child01 from "./lifecycle-child01-child01.vue";
+import LifeCycleChild01Child01 from "./LifeCycleChild01Child01.vue";
 
 export default {
   components: {
-    LifecycleChild01Child01,
+    LifeCycleChild01Child01,
   },
   setup() {
     console.log("lifecycle child01 setup ...");
@@ -44,7 +44,7 @@ export default {
   <header>
     <div>lifecycle child01</div>
 
-    <LifecycleChild01Child01></LifecycleChild01Child01>
+    <LifeCycleChild01Child01></LifeCycleChild01Child01>
   </header>
 </template>
 

@@ -1,7 +1,7 @@
 // import "/src/assets/main.css";
 
 import { createApp } from "vue";
-import App from "/src/vue/piniaTest2.vue";
+import App from "/src/vue/Pinia2.vue";
 import { createPinia } from "pinia";
 //import { usePiniaStore } from "./piniaStore";
 

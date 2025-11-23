@@ -1,9 +1,9 @@
 <script>
 import { usePiniaStore } from "/src/js/piniaStore.js";
-import PiniaTestChild01 from "./piniaTest-child01.vue";
+import PiniaChild01 from "./PiniaChild01.vue";
 
 export default {
-  components: {PiniaTestChild01},
+  components: {PiniaChild01},
   setup(){
     return{
       piniaStore:usePiniaStore()
@@ -53,7 +53,7 @@ export default {
       <button @click="addStoreCounter">addStoreCounter</button>
     </div>
 
-    <PiniaTestChild01></PiniaTestChild01>
+    <PiniaChild01></PiniaChild01>
     
   </header>
 </template>

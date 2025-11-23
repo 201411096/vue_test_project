@@ -56,7 +56,7 @@ export default {
       <button @click="toggleConent01">toggleConent01</button>
     </div>
     <div v-if="showFg_content01" ref="content01">
-      content01
+      content01 ( v-if를 사용한 숨김 처리)
       <span></span>
     </div>
 
@@ -66,7 +66,7 @@ export default {
       <button @click="toggleConent02">toggleConent02</button>
     </div>
     <div v-show="showFg_content02" ref="content02">
-      content02
+      content02 ( v-show를 사용한 숨김 처리 )
       <span></span>
     </div>
 

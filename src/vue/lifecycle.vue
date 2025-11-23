@@ -1,19 +1,19 @@
 <script>
-import LifecycleChild01 from "./lifecycle-child01.vue";
-import LifecycleChild02 from "./lifecycle-child02.vue";
-import lifecycleMixin01 from "@/js/lifecycle-mixin01";
-import lifecycleMixin02 from "@/js/lifecycle-mixin02";
+import LifeCycleChild01 from "./LifeCycleChild01.vue";
+import LifeCycleChild02 from "./LifeCycleChild02.vue";
+import LifeCycleMixin01 from "@/js/LifeCycleMixin01";
+import LifeCycleMixin02 from "@/js/LifeCycleMixin02";
 
 export default {
   components: {
-    LifecycleChild01,
-    LifecycleChild02,
+    LifeCycleChild01,
+    LifeCycleChild02,
   },
   setup(){
     console.log("lifecycle setup ...");
   },
   mixins:[
-    lifecycleMixin01, lifecycleMixin02
+    LifeCycleMixin01, LifeCycleMixin02
   ],
   beforeCreate() {
     console.log("lifecycle beforeCreate ...");
@@ -59,8 +59,8 @@ export default {
 <template>
   <header>
     <div>lifecycle test page..</div>
-    <LifecycleChild01 v-if="showFg_child01"></LifecycleChild01>
-    <LifecycleChild02></LifecycleChild02>
+    <LifeCycleChild01 v-if="showFg_child01"></LifeCycleChild01>
+    <LifeCycleChild02></LifeCycleChild02>
 
     <div>
       <label></label>
