@@ -1,6 +1,6 @@
 <script>
 import { usePiniaStore } from "/src/js/piniaStore.js";
-import PiniaChild01 from "./PiniaChild01.vue";
+import PiniaChild01 from "../components/PiniaChild01.vue";
 
 export default {
   components: {PiniaChild01},

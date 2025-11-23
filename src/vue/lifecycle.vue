@@ -1,6 +1,6 @@
 <script>
-import LifeCycleChild01 from "./LifeCycleChild01.vue";
-import LifeCycleChild02 from "./LifeCycleChild02.vue";
+import LifeCycleChild01 from "../components/LifeCycleChild01.vue";
+import LifeCycleChild02 from "../components/LifeCycleChild02.vue";
 import LifeCycleMixin01 from "@/js/LifeCycleMixin01";
 import LifeCycleMixin02 from "@/js/LifeCycleMixin02";
 
