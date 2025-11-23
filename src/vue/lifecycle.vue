@@ -1,8 +1,8 @@
 <script>
 import LifeCycleChild01 from "../components/LifeCycleChild01.vue";
 import LifeCycleChild02 from "../components/LifeCycleChild02.vue";
-import LifeCycleMixin01 from "@/js/LifeCycleMixin01";
-import LifeCycleMixin02 from "@/js/LifeCycleMixin02";
+import lifeCycleMixin01 from "../js/lifeCycleMixin01";
+import lifeCycleMixin02 from "../js/lifeCycleMixin02";
 
 export default {
   components: {
@@ -13,7 +13,7 @@ export default {
     console.log("lifecycle setup ...");
   },
   mixins:[
-    LifeCycleMixin01, LifeCycleMixin02
+    lifeCycleMixin01, lifeCycleMixin02
   ],
   beforeCreate() {
     console.log("lifecycle beforeCreate ...");

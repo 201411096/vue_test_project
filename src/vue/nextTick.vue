@@ -56,7 +56,7 @@ export default {
       <button @click="toggleConent01">toggleConent01</button>
     </div>
     <div v-if="showFg_content01" ref="content01">
-      content01 ( v-if를 사용한 숨김 처리)
+      content01 ( v-if를 사용한 숨김 처리 )
       <span></span>
     </div>
 
