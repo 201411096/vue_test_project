@@ -13,6 +13,9 @@
     <div>
       <RouterLink to="/computed">computed 테스트 페이지</RouterLink>
     </div>
+    <div>
+      <RouterLink to="/template-ref">template ref 테스트 페이지</RouterLink>
+    </div>
     
   </nav>
   <main class="main-content">
